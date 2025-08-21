@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forecast</title>
+</head>
+<body>
+<div class="forecast">
+    <div class="row">
+        <div class="col-sm-3">
+            <form method="post">
+                <p>Прошлый месяц - Данные</p>
+                <div class="input-group">
+                    <span class="input-group-text">Забор</span>
+                    <input type="text" class="form-control" placeholder="24000" name="success"
+                           aria-describedby="visible-addon">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">Валовый доход</span>
+                    <input type="text" class="form-control" placeholder="24000" name="grossIncome"
+                           aria-describedby="visible-addon">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">Расход</span>
+                    <input type="text" class="form-control" placeholder="24000" name="expense"
+                           aria-describedby="visible-addon">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">Операционная прибыль</span>
+                    <input type="text" class="form-control" placeholder="24000" name="operatingProfit"
+                           aria-describedby="visible-addon">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">Статический расход</span>
+                    <input type="text" class="form-control" placeholder="24000" name="staticExpense"
+                           aria-describedby="visible-addon">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">Динамический расход</span>
+                    <input type="text" class="form-control" placeholder="24000" name="dynamicExpense"
+                           aria-describedby="visible-addon">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">Разовый расход</span>
+                    <input type="text" class="form-control" placeholder="24000" name="oneTimeExpense"
+                           aria-describedby="visible-addon">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">Возвраты НП</span>
+                    <input type="text" class="form-control" placeholder="24000" name="returnNpExpense"
+                           aria-describedby="visible-addon">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">Комиссия Новапей</span>
+                    <input type="text" class="form-control" placeholder="24000" name="commissionNvExpense"
+                           aria-describedby="visible-addon">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">Возвраты УКР</span>
+                    <input type="text" class="form-control" placeholder="24000" name="returnUpExpense"
+                           aria-describedby="visible-addon">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">Реклама Расход</span>
+                    <input type="text" class="form-control" placeholder="24000" name="adsExpense"
+                           aria-describedby="visible-addon">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">Себестоимость</span>
+                    <input type="text" class="form-control" placeholder="24000" name="costPrice"
+                           aria-describedby="visible-addon">
+                </div>
+                <button type="button" id="oldMonth" class="btn btn-success">Сохранить</button>
+            </form>
+        </div>
+        <div class="col-sm-4">
+            <form method="post">
+                <p>Текущий период - Данные</p>
+                <div class="input-group">
+                    <span class="input-group-text">Количество дней</span>
+                    <input type="text" class="form-control" placeholder="20" name="days"
+                           aria-describedby="visible-addon">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">Прибыль CRM до / после</span>
+                    <input type="text" aria-label="100000" class="form-control" placeholder="100000" name="profitBefore">
+                    <input type="text" aria-label="120000" class="form-control" placeholder="120000" name="profitAfter">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">Рекламный расход  до / после</span>
+                    <input type="text" aria-label="100000" class="form-control" placeholder="100000" name="adsBefore">
+                    <input type="text" aria-label="120000" class="form-control" placeholder="120000" name="adsAfter">
+                </div>
+                <button type="button" id="newFormButton" class="btn btn-success">Сохранить</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<table class="table">
+    <thead>
+    <tr>
+        <th scope="col">#</th>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Handle</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+    </tr>
+    <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+    </tr>
+    <tr>
+        <th scope="row">3</th>
+        <td>John</td>
+        <td>Doe</td>
+        <td>@social</td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
